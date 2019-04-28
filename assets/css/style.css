@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    background-image: url("../images/dark-honeycomb.png");
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    height: 68px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+nav {
+    background-color: #fff;
+    width: 960px;
+    margin: 0 auto;
+    height: 68px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 0;
+    padding: 21px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    text-align: center;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+a, a:active, a:hover, a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+
+h2 {
+    padding: 20px;
+    margin: 0;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    padding: 10px 0;
+    top: 80px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 0;
+    width: 920px;
+}
+
+p {
+    line-height: 2;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    color: #ccc;
+    background-color: #505050;
+    padding-top: 20px;
+}
+
+.box-left {
+    float: left;
+}
+
+.box-right {
+    float: right;
+    padding-top: 10px;
+}
+
+.content {
+    width: 960px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-photo {
+    float: left;
+    margin: 20px;
+}
+
+.image-box {
+    width: 280px;
+    height: 180px;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.image-box-image {
+    width: 100%;
+}
+
+.contact-form {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+.contact-form-input {
+    margin-bottom: 10px;
+}
+
+.input-box {
+    width: 100%;
+}
+
+#message {
+    width: 100%;
+    height: 200px;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 10px 30px;
+    border: 0;
+}
+
+.push,
+.footer {
+    height: 40px;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    header {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .content {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        display: static;
+    }
+}
